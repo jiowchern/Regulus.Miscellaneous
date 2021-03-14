@@ -1,0 +1,3 @@
+[submodule "Regulus.Utility"]
+	path = Regulus.Utility
+	url = https://github.com/jiowchern/Regulus.Utility.git
