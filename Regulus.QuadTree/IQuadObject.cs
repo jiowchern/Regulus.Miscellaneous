@@ -5,7 +5,7 @@ namespace Regulus.Collection
 {
     public interface IQuadObject
     {
-        event EventHandler BoundsChanged;
+        event System.Action<IQuadObject> BoundsChanged;
 
         Rect Bounds { get; }
     }

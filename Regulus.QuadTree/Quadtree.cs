@@ -261,7 +261,7 @@ namespace Regulus.Collection
             }
         }
 
-        private void _OnBoundsChanged(object sender, EventArgs e)
+        private void _OnBoundsChanged(IQuadObject sender)
         {
             lock (syncLock)
             {
